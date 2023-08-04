@@ -17,7 +17,7 @@
 
 import pandas
 
-#data = pandas.read_csv("weather_data.csv")
+# data = pandas.read_csv("weather_data.csv")
 # #print(type(data)) # --> Pandas dataframe object
 # #print(type(data["temp"])) #--> Series which is the equivalent of a list, like a single column\\
 
@@ -35,7 +35,7 @@ import pandas
 # ## max value in a column
 # print(data["temp"].max())
 
-#Get data that is in the row
+# #Get data that is in the row
 # monday = data[data.day == "Monday"]
 # #print(data[data.temp == data.temp.max()])
 
@@ -53,7 +53,7 @@ import pandas
 # data = pandas.DataFrame(data_dict)
 # data.to_csv("new_data.csv")
 
-## my implementation
+# # my implementation
 # data = pandas.read_csv("2018_Central_Park_Squirrel_Census_-_Squirrel_Data.csv")
 # counts = list(data['Primary Fur Color'].value_counts())
 # print(counts)
