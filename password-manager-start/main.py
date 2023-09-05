@@ -124,6 +124,7 @@ email_label = Label(text="Email/Username:", font=("Arial", 14 ))
 email_label.grid(column=0, row=2)
 
 password_label = Label(text="Password:", font=("Arial", 14))
+
 password_label.grid(column=0, row=3)
 
 
